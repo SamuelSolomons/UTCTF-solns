@@ -1,7 +1,7 @@
 ﻿## Step 1)
 I first opened the file in wireshark and check for any flag-related strings in the streams.
 ## Step 2)
-I went over to the TCP streams, but none of them showed anything different. So I went over to the UDP streams and found 3 streams which had much highe byte transfers
+I went over to the TCP streams, but none of them showed anything different. So I went over to the UDP streams and found 3 streams which had much higher byte transfers
 <img width="1452" height="61" alt="Screenshot 2026-03-22 224522" src="https://github.com/user-attachments/assets/1628fc36-3864-4c7f-9895-81c2ddb8d92d" />
 ## Step 3)
 On following their streams, I found some text and 0s or 1s after them, which meant that this must be binary data
